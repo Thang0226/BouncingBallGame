@@ -2,25 +2,16 @@
 Các bước thực hiện (đã tích hợp các yêu cầu):
 
 Tạo đối tượng GameBoard, bao gồm các thuộc tính:
-    Độ rộng
-    Độ cao
+    
 Tạo một đối tượng Ball, bao gồm các thuộc tính và phương thức:
-    Toạ độ X
-    Toạ độ Y
-    Góc di chuyển
-    Tốc độ di chuyển
-    Phương thức di chuyển
-        theo góc và tốc độ (dùng cos, sin)
+        
     Phương thức đổi hướng khi va chạm với viền hoặc thanh đỡ
-        va vào biên trái/phải/trên: đổi hướng đối xứng
         va vào thanh đỡ: đổi hướng tùy theo tốc độ của thanh đỡ (đang đứng yên thì đối xứng, có tốc độ thì góc tù hơn tỉ lệ với tốc độ)
-        va vào biên dưới: endGame() & tải lại trang
+        
 Tạo một đối tượng Bar, bao gồm các thuộc tính và phương thức:
-    Độ rộng của thanh Bar
-    Chiều cao thanh Bar (mặc định)
-    Toạ độ X
-    Di chuyển sang trái
-    Di chuyển sang phải
-    So sánh toạ độ của các đối tượng để xác định va chạm
+    
+    Tốc độ của bar thay đổi khi giữ Ctrl
+    Bar sang phải khi nhấn mũi tên phải
+    Bar sang trái khi nhấn mũi tên trái
 
 Tạo và hiển thị biến điểm tăng theo thời gian (1s 1 điểm)
