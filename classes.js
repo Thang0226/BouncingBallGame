@@ -62,11 +62,11 @@ class Ball {
     // direction change based on speed of bar
     if (collide && bar.speed > DEFAULT_BAR_SPEED) {
       if (bar.direction === BAR_RIGHT) {
-        this.direction -= 15; // change 20 degrees "to the right"
+        this.direction -= 15; // change 15 degrees "to the right"
         if (this.direction % 360 == 0 || this.direction % 360 > 340)
           this.direction = 5;
       } else if (bar.direction === BAR_LEFT) {
-        this.direction += 15; // change 20 degrees "to the left"
+        this.direction += 15; // change 15 degrees "to the left"
         if (this.direction % 360 == 180 || this.direction % 360 > 180)
           this.direction = 175;
       }
